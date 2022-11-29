@@ -23,8 +23,8 @@ This chart bootstraps a SonarQube instance with a PostgreSQL database.
 To install the chart:
 
 ```bash
-helm repo add oteemocharts https://oteemo.github.io/charts
-helm install oteemocharts/sonarqube
+helm repo add noteemocharts https://da-code-a.github.io/noteemo-charts
+helm install noteemocharts/sonarqube
 ```
 
 The above command deploys Sonarqube on the Kubernetes cluster in the default configuration. The [configuration](#configuration) section lists the parameters that can be configured during installation.
@@ -32,8 +32,8 @@ The above command deploys Sonarqube on the Kubernetes cluster in the default con
 For OpenShift installations; if you wish for the chart to create the required SCC for the privileged initContainer, and run PostgreSQL under the restricted SCC use the following `set` statements:
 
 ```bash
-helm repo add oteemocharts https://oteemo.github.io/charts
-helm install oteemocharts/sonarqube --set OpenShift.enabled=true,\
+helm repo add noteemocharts https://da-code-a.github.io/noteemo-charts
+helm install noteemocharts/sonarqube --set OpenShift.enabled=true,\
                                           serviceAccount.create=true,\
                                           postgresql.serviceAccount.enabled=true,\
                                           postgresql.securityContext.enabled=false,\

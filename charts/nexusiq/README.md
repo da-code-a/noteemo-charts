@@ -21,8 +21,8 @@ This chart bootstraps a Nexus IQ deployment on a cluster using Helm.
 ### Installing with Helm 3.x
 
 ```bash
-helm repo add oteemocharts https://oteemo.github.io/charts
-helm install nexusiq oteemocharts/nexusiq
+helm repo add noteemocharts https://da-code-a.github.io/noteemo-charts
+helm install nexusiq noteemocharts/nexusiq
 ```
 
 ### Templating with Helm 3.x

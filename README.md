@@ -1,12 +1,10 @@
-# Oteemo Charts Repository
+# Noteemo Charts Repository
 
-***This helm charts repository has been deprecated, please see individual charts for examples of where to migrate to***
-
-Welcome to the oteemo charts repository. All charts are in the charts directory.
+Welcome to the Noteemo charts repository. All charts are in the charts directory. This has been forked from [Oteemo Charts](https://github.com/oteemo/charts) to provide current and future maintenance of these charts for projects that depend on them.
 
 ## Adding the chart Repository
 
-`helm repo add oteemocharts https://oteemo.github.io/charts`
+`helm repo add noteemocharts https://da-code-a.github.io/noteemo-charts`
 
 ## Contributing
 
@@ -14,7 +12,7 @@ Feel free to fork our repo and create a pull request with any new features or bu
 
 ## Contacting us
 
-For issues or concerns, please fill out an issue or email us at charts@oteemo.com
+For issues or concerns, please fill out an issue.
 
 ## How It Works
 

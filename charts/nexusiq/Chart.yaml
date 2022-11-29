@@ -12,4 +12,4 @@ icon: http://www.sonatype.org/nexus/content/uploads/2015/06/Nexus-Logo.jpg
 sources:
 - https://help.sonatype.com/iqserver
 - https://hub.docker.com/r/sonatype/nexus-iq-server
-deprecated: true
+deprecated: false
